@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Payment Selection Form</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: pink; 
+      padding: 40px; 
+    } 
+    .container { 
+      max-width: 400px; 
+      margin: auto; 
+      background-color: white; 
+      padding: 25px; 
+      border-radius: 10px; 
+      box-shadow: 10px rgba(0,0,0,0.1); 
+    } 
+    h2 { 
+      margin-bottom: 20px; 
+      font-size: 22px; 
+      color: black; 
+    } 
+    .payment-method { 
+      border: 1px solid black; 
+      padding: 15px; 
+      border-radius: 8px; 
+      background-color: white; 
+    } 
+.payment-option { 
+display: flex; 
+align-items: center; 
+margin-bottom: 10px; 
+} 
+.payment-option input[type="radio"] { 
+margin-right: 10px; 
+} 
+</style></head><body> 
+<div class="container"> 
+<h2>Choose Your Payment Method</h2> 
+<div class="payment-method"> 
+<label class="payment-option"> 
+<input type="radio" name="payment" value="upi" required> 
+UPI 
+</label><label class="payment-option"> 
+<input type="radio" name="payment" value="credit-card"> 
+Credit Card</label> 
+<label class="payment-option"> 
+<input type="radio" name="payment" value="cod"> 
+Cash on Delivery 
+</label> 
+</div>
+</div>
+</body>
+</html>
+
+
